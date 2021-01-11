@@ -1,4 +1,4 @@
-const {readFileSync, writeFileSync, fstat} = require('fs');
+const {readFileSync, writeFileSync} = require('fs');
 const {join} = require('path');
 
 const redirectsFilePath = join(__dirname, '_redirects');
