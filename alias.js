@@ -13,7 +13,7 @@ const newAlias = process.argv[2];
 const newUrl = process.argv[3];
 
 if (!newAlias || !newUrl) {
-  throw new Error("Alias and url required");
+  throw new Error('Alias and url are required');
 }
 
 if (redirects.find(([alias]) => alias === newAlias)) {
